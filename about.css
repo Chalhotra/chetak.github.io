@@ -1,0 +1,36 @@
+.about-content {
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    
+    
+    
+
+}
+
+.about
+{
+    background-image: url("https://e0.pxfuel.com/wallpapers/1010/712/desktop-wallpaper-minecraft-grass-block-box-dirt-texture-minecraft-minecraft.jpg") ;
+
+}
+
+
+
+.icons-footer a{
+
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.icons-footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background: rgba(0, 0, 0, 0.7); */
+    width: 28rem;
+}
+

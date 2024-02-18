@@ -1,0 +1,38 @@
+.card {
+    perspective: 1000px; /* Set perspective for 3D effect */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    position: relative;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Ensure content doesn't show through */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .front {
+    transform: rotateY(0deg);
+  }
+  
+  .back {
+    transform: rotateY(-180deg); /* Initially rotated to hide */
+  }
+  
+  .card:hover .front {
+    transform: rotateY(90deg); /* Rotates front face up */
+  }
+  
+  .card:hover .back {
+    transform: rotateY(0deg); /* Rotates back face down to reveal */
+  }
+  
