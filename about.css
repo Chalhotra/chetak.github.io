@@ -1,58 +1,42 @@
 .about-content {
-    padding-top: 1.5rem;
-    backdrop-filter: blur(5px);
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    width: 100%;
-    
+  padding-top: 1.5rem;
+  backdrop-filter: blur(5px);
+  color: white;
+  text-align: center;
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  width: 100%;
 
-
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-    align-items: center;
-    
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.about
-{
-    background-image: url("https://e0.pxfuel.com/wallpapers/1010/712/desktop-wallpaper-minecraft-grass-block-box-dirt-texture-minecraft-minecraft.jpg") ;
-
+.about {
+  background-image: url("https://e0.pxfuel.com/wallpapers/1010/712/desktop-wallpaper-minecraft-grass-block-box-dirt-texture-minecraft-minecraft.jpg");
 }
 
-
-
-.icons-footer a{
-
-    text-decoration: none;
-    font-size: 3rem;
-    color: white;
-    
+.icons-footer a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
 }
 
-.icons-footer{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* background: rgba(0, 0, 0, 0.7); */
-    width: 100%;
+.icons-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background: rgba(0, 0, 0, 0.7); */
+  width: 100%;
 }
-
-
 
 #about-page {
-    max-width: 50rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    /* margin-bottom: 5rem; */
-    
+  max-width: 50rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* margin-bottom: 5rem; */
 }
 
-
-
 .links {
-    margin-top: 8%;
+  margin-top: 8%;
 }
