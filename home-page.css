@@ -28,6 +28,13 @@
     
 }
 
+
+@media (max-width: 500px) {
+  .home-content h1 {
+    font-size: 3rem;
+  }
+}
+
 html {
     scroll-behavior: smooth;
     
