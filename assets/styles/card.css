@@ -1,0 +1,47 @@
+.card {
+  perspective: 60rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  position: relative;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(-180deg);
+  padding: 2rem;
+}
+
+.card:hover .front {
+  transform: rotateY(90deg);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.back p {
+  padding-left: 1rem;
+  padding-right: 1rems;
+}
+.back-card-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
