@@ -110,7 +110,7 @@ body {
   #check:checked ~ .navbar {
     height: 0%;
     overflow: hidden;
-    height: 12rem;
+    height: 14.5rem;
   }
 
   #check:checked ~ .icons #close-icon {
